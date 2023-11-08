@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,14 +28,23 @@ namespace AssignmentDay3
             Console.Write("Date of Joining (DOJ): ");
             string doj = Console.ReadLine();
 
-            Console.WriteLine("\nID\tEmployee Name\tEmployee Gender\tEmployee Salary\tDOJ");
+            Console.WriteLine("\nID \t Employee Name \t Employee Gender \t Employee Salary \t DOJ");
             Console.WriteLine("----------------------------------------------------------------------------");
             Console.WriteLine($"{id}\t{name}\t\t{gender}\t\t\t{salary:C}\t\t{doj}");
 
-            double taxRate = (salary > 90000) ? 0.30 : 0.15;
+            double taxRate;
+
+            if (salary > 90000)
+            {
+                taxRate = 0.30;
+            }
+            else
+            {
+                taxRate = 0.15;
+            }
+
             double tax = salary * taxRate;
 
-            Console.WriteLine("\nYou have to pay: " + tax.ToString("C"));
             goto Again;
             Console.ReadKey();
         }
