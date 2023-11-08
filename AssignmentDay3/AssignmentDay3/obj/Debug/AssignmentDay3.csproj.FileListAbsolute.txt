@@ -1,0 +1,7 @@
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\bin\Debug\AssignmentDay3.exe.config
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\bin\Debug\AssignmentDay3.exe
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\bin\Debug\AssignmentDay3.pdb
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\obj\Debug\AssignmentDay3.csproj.AssemblyReference.cache
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\obj\Debug\AssignmentDay3.csproj.CoreCompileInputs.cache
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\obj\Debug\AssignmentDay3.exe
+C:\Users\Ashwitha\Desktop\MPHASIS2\day3\AssignmentDay3\AssignmentDay3\obj\Debug\AssignmentDay3.pdb
