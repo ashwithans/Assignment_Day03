@@ -10,6 +10,7 @@ namespace AssignmentDay3
     {
         static void Main(string[] args)
         {
+            Again:
             Console.WriteLine("Enter Employee Details:");
 
             Console.Write("ID: ");
@@ -35,6 +36,7 @@ namespace AssignmentDay3
             double tax = salary * taxRate;
 
             Console.WriteLine("\nYou have to pay: " + tax.ToString("C"));
+            goto Again;
             Console.ReadKey();
         }
     }
