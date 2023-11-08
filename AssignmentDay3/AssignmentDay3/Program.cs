@@ -35,7 +35,7 @@ namespace AssignmentDay3
             double tax = salary * taxRate;
 
             Console.WriteLine("\nYou have to pay: " + tax.ToString("C"));
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
